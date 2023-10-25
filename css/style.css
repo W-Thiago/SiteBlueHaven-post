@@ -24,6 +24,11 @@ section {
   padding: 4rem 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 h1,
 h2 {
   font-family: "Poppins", sans-serif;
@@ -34,10 +39,6 @@ h2 {
 p {
   font-size: 0.875rem;
   line-height: 1.5;
-}
-
-.thiago {
-  font-size: 5rem;
 }
 
 .container {
@@ -60,7 +61,7 @@ p {
   background-color: var(--green-2);
   margin-top: 2rem;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.16);
+  box-shadow: 2px 2px 2px rgba(0.16, 0, 0, 0.16);
   transition: 0.3 ease;
 }
 
@@ -241,4 +242,75 @@ p {
   line-height: 1.5;
   font-style: italic;
   color: #232c33;
+}
+
+/*galeria-home*/
+
+.galeria-home {
+  text-align: center;
+}
+
+.galeria-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.galeria img {
+  border-radius: 5px;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+/*sobre-home*/
+
+.sobre-home {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: var(--white-2);
+  text-align: center;
+}
+
+.sobre-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.sobre-container img {
+  background-color: #fff;
+  padding: 2rem;
+  border: 1px solid var(--white-3);
+  border-radius: 5px;
+}
+
+.sobre-container p {
+  font-size: 1.1rem;
+  color: var(--black-1);
+  text-align: justify;
+  font-style: normal;
+}
+
+.sobre-quote {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-style: italic;
+  max-width: 750px;
+  margin: 4rem auto 0 auto;
+  color: var(--black-3);
+}
+
+.sobre-cite {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  display: block;
+  text-align: right;
+  margin-top: 1rem;
+  color: var(--black-1);
+}
+
+.sobre-btn {
+  padding-bottom: 1rem;
 }
