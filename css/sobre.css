@@ -1,0 +1,111 @@
+/*sobre*/
+html {
+  --blue-1: #44a9fc;
+  --blue-2: #3399ee;
+  --blue-3: #2188de;
+  --green-1: #75ba1e;
+  --green-2: #66aa11;
+  --green-3: #599c06;
+  --white-1: #fafbfc;
+  --white-2: #ecedee;
+  --white-3: #dcddde;
+  --black-1: #404b52;
+  --black-2: #313b42;
+  --black-3: #232c33;
+  --black-4: black;
+}
+
+.sobre {
+  background: url("../img/bg-sobre.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.sobre-quote {
+  margin-bottom: 3rem;
+}
+
+/*MVV*/
+.mvv {
+  width: 100%;
+  background: var(--blue-1);
+  padding: 4rem 0;
+}
+
+.mvv-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+.mvv-list li {
+  background-color: #fff;
+  padding: 1rem 2rem 2rem 2rem;
+  border: 1px solid var(--white-3);
+}
+
+.mvv-list h2 {
+  font-size: 1.5rem;
+  color: var(--blue-3);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.mvv-list P {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.mvv-list h2::before {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background: url("../img/missao.svg") no-repeat center center;
+  margin: 0 auto 0.25rem auto;
+}
+
+.mvv-list li:nth-child(2) h2::before {
+  background: url("../img/visao.svg") no-repeat center center;
+}
+
+.mvv-list li:nth-child(3) h2::before {
+  background: url("../img/valores.svg") no-repeat center center;
+}
+
+/*DEPOIMENTOS*/
+
+.depoimentos {
+  text-align: center;
+}
+
+.depoimentos p,
+.depoimentos .cta {
+  margin-top: 1rem;
+}
+
+.depoimentos .cta {
+  margin-bottom: 1rem;
+}
+
+/* AGENDE*/
+
+.agende {
+  width: 100%;
+  padding: 2rem 0 2rem 0;
+  background: url("../img/bg-agende.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.agende .titulo,
+.agende p {
+  color: #fff;
+}
+
+.agende p {
+  max-width: 400px;
+  margin: 0 auto;
+  font-style: italic;
+}

@@ -189,6 +189,8 @@ p {
 
 .passeios-home-lista p {
   padding: 2rem;
+  text-align: justify;
+  color: var(--black-3);
 }
 
 .passeios-home-lista a {
@@ -305,6 +307,7 @@ p {
   max-width: 750px;
   margin: 4rem auto 0 auto;
   color: var(--black-3);
+  text-align: center;
 }
 
 .sobre-cite {
