@@ -374,6 +374,8 @@ p {
   margin-top: 0.5rem;
 }
 
+/*redes sociais*/
+
 .redes-sociais {
   display: grid;
   grid-template-columns: repeat(4, 2rem);
