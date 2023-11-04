@@ -124,3 +124,50 @@ html {
   outline: none;
   cursor: pointer;
 }
+
+.dados h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.dados h2:first-child {
+  margin-top: 0px;
+}
+
+.dados a,
+.dados p {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--black-1);
+  opacity: 0.8;
+}
+
+.dados li + li {
+  margin-top: 1rem;
+}
+
+.dados a:hover {
+  text-decoration: underline;
+}
+
+.map {
+  padding-bottom: 2rem;
+}
+
+.map p {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.map img {
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.map img:hover {
+  opacity: 0.6;
+}
