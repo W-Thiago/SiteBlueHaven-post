@@ -32,6 +32,10 @@ html {
   border-radius: 5px;
 }
 
+.passeios-container {
+  margin-top: 1rem;
+}
+
 .info h2 {
   font-size: 1.125rem;
   color: var(--green-1);
@@ -79,10 +83,6 @@ html {
 
 .info li + li {
   border-top: 1px solid var(--white-3);
-}
-
-.passeios-container {
-  margin-top: 1rem;
 }
 
 /*galeria*/

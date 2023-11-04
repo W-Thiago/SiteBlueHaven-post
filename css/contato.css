@@ -1,0 +1,40 @@
+html {
+  --blue-1: #44a9fc;
+  --blue-2: #3399ee;
+  --blue-3: #2188de;
+  --green-1: #75ba1e;
+  --green-2: #66aa11;
+  --green-3: #599c06;
+  --white-1: #fafbfc;
+  --white-2: #ecedee;
+  --white-3: #dcddde;
+  --black-1: #404b52;
+  --black-2: #313b42;
+  --black-3: #232c33;
+  --black-4: black;
+}
+
+.contato_1 {
+  background: url("../img/bg-contato.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 0px;
+}
+
+.wpp {
+  text-align: center;
+}
+
+.wpp-box {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  align-items: center;
+  font-style: italic;
+  text-align: left;
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid var(--white-3);
+  max-width: 526px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
