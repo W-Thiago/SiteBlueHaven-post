@@ -61,18 +61,20 @@
       <div class="container">
         <h1 class="titulo">ATENDIMENTO PERSONALIZADO</h1>
         <div class="atendimento-container">
-          <form>
+          <form class="form">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" />
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email" />
             <label for="passeios">Passeios</label>
-
-            <select name="passeios" id="Passeios">
-              <option value="paraquedas">Paraquedas</option>
-              <option value="asa-delta">Delta</option>
-              <option value="balonismo">Balonismo</option>
-            </select>
+            <div class="select">
+              <select name="passeios" id="passeios">
+                <option value="" disabled selected hidden></option> 
+                <option value="paraquedas">Paraquedas</option>
+                <option value="asa-delta">Delta</option>
+                <option value="balonismo">Balonismo</option>
+              </select>
+            </div>
             <label for="mensagem">Mensagem</label>
             <textarea name="mensagem" id="mensagem"></textarea>
             <button class="cta" type="submit" name="enviar" id="enviar">
