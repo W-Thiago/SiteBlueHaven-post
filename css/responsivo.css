@@ -1,0 +1,38 @@
+/*RESPONSIVO*/
+
+@media only screen and (max-width: 750px) {
+  .passeios-home-lista,
+  .depoimentos-lista,
+  .galeria-lista,
+  .sobre.container,
+  .footer-contaimer,
+  .mvv-lista,
+  .passeios-container,
+  .atendimento-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .passeios-home-lista li {
+    max-width: 388px;
+  }
+  .passeios-home-lista p {
+    padding: 1rem;
+    color: black;
+  }
+  .depoimentos-lista {
+    padding: 0px;
+  }
+  .sobre-quote {
+    margin-top: 2rem;
+  }
+  /*.footer-container {
+    justify-items: start;
+  }*/
+  .footer-container > li + li {
+    width: 100%;
+    padding-left: 0px;
+    border-left: none;
+    padding-top: 2rem;
+    border-top: 1px solid var(--black-1);
+  }
+}
