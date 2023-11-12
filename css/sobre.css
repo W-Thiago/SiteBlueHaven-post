@@ -81,8 +81,13 @@ html {
 }
 
 .depoimentos p,
-.depoimentos .cta {
-  margin-top: 1rem;
+.depoimentos {
+  margin-bottom: 1rem;
+}
+
+.depoimentos,
+.cta {
+  margin-bottom: 1rem;
 }
 
 /* AGENDE*/
