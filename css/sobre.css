@@ -85,10 +85,6 @@ html {
   margin-top: 1rem;
 }
 
-.depoimentos .cta {
-  margin-bottom: 1rem;
-}
-
 /* AGENDE*/
 
 .agende {
@@ -106,6 +102,10 @@ html {
 
 .agende p {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
   font-style: italic;
+}
+
+.agende .cta {
+  margin-bottom: 1rem;
 }

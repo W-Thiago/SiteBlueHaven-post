@@ -63,6 +63,7 @@ p {
   border-radius: 5px;
   box-shadow: 2px 2px 2px rgba(0.16, 0, 0, 0.16);
   transition: 0.3 ease;
+  margin-bottom: 2rem;
 }
 
 .cta:hover {
@@ -413,4 +414,17 @@ p {
 .copyright p {
   font-family: "Poppins", sans-serif;
   color: #fff;
+}
+
+/*JAVASCRIPT*/
+
+.js [date-animate="scroll"] {
+  opacity: 0;
+  transform: translate3d(0, 32px, 0);
+  transition: 1s;
+}
+
+.js [date-animate="scroll"].ativo {
+  opacity: 1;
+  transform: (none);
 }

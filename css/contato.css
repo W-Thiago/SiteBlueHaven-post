@@ -62,6 +62,7 @@ html {
   width: 100%;
   max-width: 480px;
   box-sizing: border-box;
+  margin-bottom: 2rem;
 }
 
 .form label,
@@ -169,6 +170,7 @@ html {
 .map img {
   border-radius: 5px;
   transition: 0.3s ease;
+  margin-bottom: 2rem;
 }
 
 .map img:hover {
