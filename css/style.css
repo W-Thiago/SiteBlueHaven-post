@@ -428,3 +428,83 @@ p {
   opacity: 1;
   transform: (none);
 }
+
+/*MENU HAMBURGER*/
+
+[data-menu="hamburger"] {
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .header {
+    height: 4.25rem;
+    box-sizing: border-box;
+  }
+
+  .js .header-container {
+    flex-wrap: nowrap;
+  }
+
+  .js [data-menu="hamburger"] {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 1rem;
+    position: relative;
+  }
+
+  .js [data-menu="hamburger"]::after {
+    content: "";
+    display: inline-block;
+    width: 2rem;
+    height: 0.125rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    box-shadow: 0 0.5rem #fff, 0 -0.5rem #fff;
+  }
+
+  .js [data-menu="lista"] {
+    display: none;
+    position: absolute;
+    top: 4.25rem;
+    right: 1rem;
+    background: #fff;
+    width: 200px;
+    padding: 1rem;
+    border: 1px solid (var(--white-3));
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+    z-index: 100;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
+  }
+
+  .js [data-menu="lista"].ativo {
+    display: block;
+  }
+
+  .js [data-menu="lista"] li + li {
+    margin-left: 0rem;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    border-top: 1px solid var(--white-3);
+  }
+
+  .js [data-menu="lista"] li a {
+    font-size: 0.875rem;
+    text-transform: none;
+    color: var(--black-1);
+    border: none;
+    transition: 0.1 ease-out;
+  }
+
+  .js [data-menu="lista"] li a:hover {
+    color: var(--white-3);
+  }
+}
