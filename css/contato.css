@@ -63,6 +63,7 @@ html {
   max-width: 480px;
   box-sizing: border-box;
   margin-bottom: 2rem;
+  align-self: start;
 }
 
 .form label,
@@ -146,6 +147,7 @@ html {
   font-style: italic;
   color: var(--black-1);
   opacity: 0.8;
+  margin-bottom: 2rem;
 }
 
 .dados li + li {

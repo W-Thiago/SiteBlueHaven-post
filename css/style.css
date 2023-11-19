@@ -78,7 +78,7 @@ p {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 2rem;
-  padding: 2rem 0 0 0;
+  padding: 1rem 0 0 0;
 }
 
 /* header  */
@@ -507,4 +507,14 @@ p {
   .js [data-menu="lista"] li a:hover {
     color: var(--white-3);
   }
+}
+
+/*FORMULARIO */
+
+#form-error {
+  color: tomato;
+}
+
+#form-sucess {
+  color: var(--green-1);
 }
