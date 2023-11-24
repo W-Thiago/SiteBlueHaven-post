@@ -49,6 +49,10 @@ p {
   padding-right: 1rem;
 }
 
+.container p {
+  margin-top: 1rem;
+}
+
 .cta {
   display: inline-block;
   font-family: "Poppins" sans-serif;
@@ -68,6 +72,10 @@ p {
 
 .cta:hover {
   background: var(--green-3);
+}
+
+.cta1 {
+  margin-top: 2rem;
 }
 
 /* Titulo */
